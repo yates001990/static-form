@@ -1,0 +1,106 @@
+/* Styling to match the specific image provided */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.invoice-box {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #ccc;
+    min-height: 1000px;
+}
+
+/* The Blue Banner */
+.banner {
+    background: #1a4d80; /* Dark blue matching the image */
+    color: white;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.banner h1 { margin: 0; font-size: 2.5rem; font-weight: normal; }
+
+/* Invoice # */
+.invoice-meta { margin-bottom: 30px; }
+.invoice-meta h2 { color: #1a4d80; margin-bottom: 5px; }
+
+/* Bill To / For Grid */
+.billing-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+}
+
+h3 { color: #1a4d80; border-bottom: none; margin-bottom: 5px; }
+
+/* Main Table */
+.item-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.item-table th {
+    background-color: #1a4d80;
+    color: white;
+    padding: 10px;
+    border: 1px solid #1a4d80;
+}
+
+.item-table td {
+    border: 1px solid #1a4d80;
+    height: 30px;
+    background-color: #f2f2f2; /* Light grey rows like the image */
+}
+
+.item-table input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-size: 1rem;
+}
+
+/* Totals section aligned to the right */
+.totals-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.totals-table {
+    width: 300px;
+    border-collapse: collapse;
+}
+
+.totals-table td {
+    padding: 8px;
+    text-align: right;
+}
+
+.box-cell {
+    border: 1px solid #1a4d80;
+    width: 150px;
+}
+
+.total-label {
+    font-size: 1.5rem;
+    color: #777;
+}
+
+.total-box {
+    background-color: #1a4d80;
+    color: white;
+    font-weight: bold;
+    text-align: center !important;
+    border: 1px solid #1a4d80;
+}
+
+/* Footer */
+.invoice-footer {
+    margin-top: 100px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
